@@ -9,9 +9,17 @@
 
 .contacto{
 
-    width: 40px;
-    filter: invert();
+    width: 20px;
+    margin: 2px;
+}
 
+.contactoLink{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-size: 13px;
+    margin: 5px
 }
 
 #navbar-titulo{
