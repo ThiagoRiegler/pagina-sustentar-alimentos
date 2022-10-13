@@ -25,7 +25,7 @@ nav{
     text-decoration: none;
     color: black;
     font-family: 'Francois One', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     margin: 5px
 }
 
@@ -64,7 +64,7 @@ nav{
 
 }
 
-p{
+.texto{
 
     width: 55%;
     margin: 80px;
@@ -130,5 +130,141 @@ p{
     width: 20%;
     margin-top: -350px;
     box-shadow: -15px 15px #fd7322;
+
+}
+
+.contactoLink:hover{
+
+    color: #fd7322;
+
+}
+
+#img3{
+
+    position: relative;
+    display: block;
+    margin: 60px;
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 60%;
+    filter: grayscale();
+
+}
+
+#titulo3{
+
+    background-color: #fd7322;
+    width: 35%;
+    margin: 90px;
+    margin-top: -150px;
+    padding: 20px;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    position:relative;
+    z-index: 1;
+
+}
+
+.modelo{
+
+    background-color: #89ba16;
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+    width: 45%;
+    color: white;
+    font-size: 25px;
+
+}
+
+#img4{
+
+    position: relative;
+    display: block;
+    margin: 60px;
+    margin-left: auto;
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    object-position:0 80%;
+    filter: grayscale();
+
+}
+
+#titulo4{
+
+    background-color: #fd7322;
+    width: 30%;
+    margin: 90px;
+    margin-top: -150px;
+    margin-left: auto;
+    padding: 20px;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    position:relative;
+    z-index: 1;
+
+}
+
+#imgIzq1{
+
+    width: 25%;
+
+}
+
+#tarjeta{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;   
+
+}
+
+#tituloDonar{
+
+    background-color: #fd7322;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+#tituloDonar1{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#boton1{
+
+    background-color: #89ba16; 
+    color: white;
+
+}
+
+#boton2{
+
+    background-color: #89ba16; 
+    color: white;
+
+}
+
+#boton1:hover{
+
+    background-color: #60830f;
+    font-size: 20px;
+    transition: font-size 1s, background-color 1s;
+
+}
+
+#boton2:hover{
+
+    background-color: #60830f;
+    font-size: 20px;
+    transition: font-size 1s, background-color 1s;
 
 }
