@@ -213,58 +213,12 @@ nav{
 
 }
 
-#tarjeta{
+#botones{
 
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 100px;   
-
-}
-
-#tituloDonar{
-
-    background-color: #fd7322;
-    padding: 15px;
-    border-radius: 15px;
-    margin: 20px;
-    color: white;
-    font-family: 'Francois One', sans-serif;
-
-}
-
-#tituloDonar1{
-
-    display: flex;
-    justify-content: center;
-
-}
-
-#boton1{
-
-    background-color: #89ba16; 
-    color: white;
-
-}
-
-#boton2{
-
-    background-color: #89ba16; 
-    color: white;
-
-}
-
-#boton1:hover{
-
-    background-color: #60830f;
-    font-size: 20px;
-    transition: font-size 1s, background-color 1s;
-
-}
-
-#boton2:hover{
-
-    background-color: #60830f;
-    font-size: 20px;
-    transition: font-size 1s, background-color 1s;
+    height: 500px;
+    background-image: url(imagenes/im21.png);
+    background-size: 100%;
+    background-position: 0 20%;
+    background-repeat: no-repeat;
 
 }
