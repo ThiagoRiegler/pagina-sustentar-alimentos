@@ -213,12 +213,9 @@ nav{
 
 }
 
-#botones{
+#img-fondo{
 
     height: 500px;
-    background-image: url(imagenes/im21.png);
-    background-size: 100%;
-    background-position: 0 20%;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
