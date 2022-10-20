@@ -1,40 +1,60 @@
 #navbar{
 
 
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: white;
-
-}
-
-nav{
-
+    overflow: hidden;
     background-color: #89ba16;
+    padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: sticky; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
 
 }
 
-.contacto{
+#icon{
 
-    width: 20px;
-    margin: 2px;
+    transition: .4s;
+
 }
 
-.contactoLink{
+#redes{
 
-    text-decoration: none;
-    color: black;
-    font-family: 'Francois One', sans-serif;
-    font-size: 15px;
-    margin: 5px
+    width: 17%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: .4s;
+
+}
+
+.redes{
+
+    filter: saturate(0%);
+    transition: .5s;
+    width: 45px;
+    transition: .4s;
+
+}
+
+.redes:hover{
+
+    filter: none;
+
+}
+
+.contactoLink span{
+
+    position: relative;
+    top: 2px;
+
 }
 
 #navbar-titulo{
 
     color: white; 
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Francois One', sans-serif;
-
+    transition: 0.4s;
 }
 
 #titulo{
@@ -166,6 +186,13 @@ nav{
 
 }
 
+#cuadros{
+
+    height: 700px;
+    display: flex;
+
+}
+
 .modelo{
 
     background-color: #89ba16;
@@ -177,6 +204,7 @@ nav{
     font-size: 25px;
 
 }
+
 
 #img4{
 
@@ -217,5 +245,40 @@ nav{
 
     height: 500px;
     background-attachment: fixed;
+
+}
+
+footer{
+
+    background-color: rgb(233, 233, 233);
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+
+}
+
+footer a{
+
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+footer a:hover{
+
+    color: rgb(110, 110, 110);
+    font-size: 1.1em;
+
+}
+
+footer div{
+
+    margin-left: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
 
 }
