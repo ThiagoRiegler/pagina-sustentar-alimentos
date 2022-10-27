@@ -282,3 +282,77 @@ footer div{
     justify-content: space-evenly;
 
 }
+
+.menu_bar{
+    display: none;
+}
+.menu_bar .btn-menu{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+
+    .redes{
+
+        display: none;
+
+    }
+
+    .menu_bar{
+        display: block;
+    }
+    .menu_bar .bt-menu{
+        display: block;
+        padding: 20px;
+    }
+
+    .menu_bar .bt-menu img{
+
+        width: 75%;
+        filter: invert();
+
+    }
+
+    #navbar-titulo{
+
+        font-size: 20px;
+
+    }
+    
+    #icon{
+
+        width: 40px;
+
+    }
+
+    #navbar{
+
+        padding: 5px;
+
+    }
+
+    #img1{
+
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+
+    }
+
+    #titulo{
+
+        width: 80%;
+        top: 50px;
+
+    }
+
+    .texto{
+
+        position: relative;
+        margin: 50px;
+        top: 20px;
+        width: 80%;
+
+    }
+
+}
