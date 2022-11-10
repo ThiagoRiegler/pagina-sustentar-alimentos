@@ -351,7 +351,19 @@ footer div{
         position: relative;
         margin: 50px;
         top: 20px;
-        width: 80%;
+        width: 60%;
+
+    }
+
+    .imgDer{
+
+        margin-left: 75%;
+
+    }
+
+    #titulo2{
+
+        margin: 0;
 
     }
 

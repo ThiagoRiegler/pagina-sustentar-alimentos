@@ -25,3 +25,4 @@ function scrollFunction() {
         document.getElementById("redes").style.width = "18%";
     }
 }
+

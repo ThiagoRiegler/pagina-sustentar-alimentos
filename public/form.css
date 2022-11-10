@@ -1,0 +1,97 @@
+
+
+#contenedor{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89ba16;
+
+}
+
+html{
+
+    background-color: #89ba16;
+
+}
+
+#formulario{
+
+    margin: 10%;
+
+}
+
+form{
+
+    padding: 70px;
+    background-color: #6e9513;
+    border-radius: 5px;
+
+}
+
+input, a{
+
+    background: 0;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    margin: 20px;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+input::placeholder{
+
+    color: white;
+
+}
+
+label{
+
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+label:hover{
+
+    font-size: 22px;
+
+}
+
+.radio{
+
+    vertical-align: middle;
+    
+}
+
+input[name="Correo"]{
+
+    width: 92.6%;
+
+}
+
+#enviar, a{
+
+    transition: 0.1s;
+
+}
+
+#enviar:hover, a:hover{
+
+    background-color: #89ba16;
+    cursor: pointer;
+
+}
+
+#enviar:active, a:active{
+
+    font-size: 18px;
+
+}
