@@ -128,7 +128,7 @@
     background-color: #fd7322;
     width: 30%;
     margin: 50px;
-    margin-left: 800px;
+    margin-left: 50%;
     margin-top: -50px;
     padding: 20px;
     color: white;
@@ -290,9 +290,15 @@ footer div{
     display: none;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:600px){
 
     .redes{
+
+        display: none;
+
+    }
+
+    .imgIzq{
 
         display: none;
 
@@ -335,7 +341,7 @@ footer div{
 
         width: 100%;
         margin: 0;
-        padding: 20px;
+        padding: 10px;
 
     }
 
@@ -346,24 +352,97 @@ footer div{
 
     }
 
-    .texto{
+    .texto, .derecha{
 
         position: relative;
-        margin: 50px;
+        margin: 20px;
         top: 20px;
-        width: 60%;
+        width: 90%;
 
     }
 
     .imgDer{
 
-        margin-left: 75%;
+        display: none;
+
+    }
+
+    #img2{
+
+        width: 95%;
+        margin-left: 2%;
+        top: 50px;
 
     }
 
     #titulo2{
 
-        margin: 0;
+        margin-left: 10%;
+        width: 80%;
+        top: 40px;
+
+    }
+
+    #titulo3{
+
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    #img3{
+
+        width: 95%;
+        margin-left: 2%;
+
+    }
+
+    #cuadros{
+
+        flex-direction: column;
+
+    }
+
+    .modelo{
+
+        width: 90%;
+        font-size: 20px;
+        display: inline-block;
+
+    }
+
+    #cuadros{
+
+        display: inline-block;
+
+    }
+
+    #img4{
+
+        width: 95%;
+        margin-left: 2%;
+
+    }
+
+
+
+    #titulo4{
+
+        width: 80%;
+
+    }
+
+
+    footer div{
+
+        margin-left: 30%;
+
+    }
+
+    footer a{
+
+        padding: 5px;
+        font-size: 15px;
 
     }
 
