@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     
     <head>
     
@@ -22,13 +22,13 @@
             <div id="formulario">
                 <form action="https://formspree.io/f/xjvzjvbj" method="post">
 
-                    <input type="text" name="Nombre" placeholder="Nombre">
-                    <input type="text" name="Apellido" placeholder="Apellido"><br>
-                    <input type="mail" name="Correo" placeholder="Correo"><br>
+                    <input type="text" name="Nombre" placeholder="Nombre" required>
+                    <input type="text" name="Apellido" placeholder="Apellido" required><br>
+                    <input type="email" name="Correo" placeholder="Correo" required><br>
 
-                    <label><input type="radio" name="Ayuda" value="Donar alimento" class="radio">Donar alimento</label>
-                    <label><input type="radio" name="Ayuda" value="Ser voluntario" class="radio">Ser voluntario</label>
-                    <label><input type="radio" name="Ayuda" value="Recibir donaciones" class="radio">Recibir donaciones</label><br>
+                    <label><input type="radio" name="Ayuda" value="Donar alimento" class="radio" required>Donar alimento</label>
+                    <label><input type="radio" name="Ayuda" value="Ser voluntario" class="radio" required>Ser voluntario</label>
+                    <label><input type="radio" name="Ayuda" value="Recibir donaciones" class="radio" required>Recibir donaciones</label><br>
 
                     <input type="submit" id="enviar">
                 </form>

@@ -24,7 +24,6 @@
     display: flex;
     justify-content: space-evenly;
     transition: .4s;
-
 }
 
 .redes{
@@ -77,7 +76,7 @@
     position:relative;
     height: 400px;
     width: 60%;
-    filter: grayscale();
+    filter: grayscale(100%);
     margin: 30px;
     object-fit: cover;
     object-position: 0 60%;
@@ -119,7 +118,7 @@
     z-index: 0;
     margin-right: 100px;
     width: 60%;
-    filter: grayscale();
+    filter: grayscale(100%);
 
 }
 
@@ -168,7 +167,7 @@
     height: 400px;
     object-fit: cover;
     object-position: 0 60%;
-    filter: grayscale();
+    filter: grayscale(100%);
 
 }
 
@@ -216,7 +215,7 @@
     height: 400px;
     object-fit: cover;
     object-position:0 80%;
-    filter: grayscale();
+    filter: grayscale(100%);
 
 }
 
@@ -290,7 +289,7 @@ footer div{
     display: none;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
 
     .redes{
 
@@ -315,7 +314,7 @@ footer div{
     .menu_bar .bt-menu img{
 
         width: 75%;
-        filter: invert();
+        filter: invert(100%);
 
     }
 

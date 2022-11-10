@@ -95,3 +95,16 @@ input[name="Correo"]{
     font-size: 18px;
 
 }
+
+@media screen and (max-width:700px){
+
+    form{
+
+        display: flex;
+        flex-direction: column;
+
+    }    
+
+
+
+}
