@@ -42,3 +42,4 @@ function myFunction(x) {
   
   var x = window.matchMedia("(max-width: 700px)")
   myFunction(x) // Call listener function at run time
+

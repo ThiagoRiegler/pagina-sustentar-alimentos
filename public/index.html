@@ -15,12 +15,26 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Padauk&display=swap" rel="stylesheet">
-       <script src='main.js'></script>
+       	<script src='main.js'></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+        <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+		  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+		</script>
 
     </head>
 
     <body>
+
+    	<script>  
+    		$( document ).ready(function() {
+				$('#menu_on').click(function(){ // Al hacer click...
+		   			$('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 		})
+		 		$('#menu').click(function(){ // Al hacer click...
+		   			$('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 		})
+			});
+		</script>
 
         <a id="inicio"></a>
         
@@ -44,6 +58,11 @@
                                 <a href="https://web.facebook.com/alimentosolavarria/?_rdc=1&_rdr" class="redes" target="_blank"><img src="imagenes/Logos/facebook.svg" alt="facebook" title="Facebook"></a>
                                 <a href="https://api.whatsapp.com/send/?phone=5492494494569&text&type=phone_number&app_absent=0" class="redes" target="_blank"><img src="imagenes/Logos/whatsapp.svg" alt="whatsapp" title="Whatsapp"></a>
                         </div>
+                        <div id="menu_on">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
                     </div>
                     <div id="indice">
                         <a href="#que_es">¿Qué es?</a>
@@ -51,8 +70,21 @@
                         <a href="#como_trabaja">¿Cómo trabaja?</a>
                         <a href="#como_sostiene">¿Cómo se sostiene?</a>
                     </div>
+					
                 </nav>
         </div>
+        <div id="menu">	
+			<ul>
+				<li><a href="#que_es">¿Qué es?</a></li>
+				<li><a href="#quienes_ayuda">¿A quiénes ayuda?</a></li>
+				<li><a href="#como_trabaja">¿Cómo trabaja?</a></li>
+				<li><a href="#como_sostiene">¿Cómo se sostiene?</a></li>
+				<li><a href="form.html" target="_blank">Correo</a></li>
+				<li><a href="https://www.instagram.com/sustentar.alimentos.olavarria/" target="_blank">Instagram</a></li>
+				<li><a href="https://web.facebook.com/alimentosolavarria/?_rdc=1&_rdr" target="_blank">Facebook</a></li>
+				<li><a href="https://api.whatsapp.com/send/?phone=5492494494569&text&type=phone_number&app_absent=0" target="_blank">Whatsapp</a></li>
+			</ul>
+		</div>
 
         <article>
             <section>
@@ -138,30 +170,35 @@
             </section>
 
             <section>
-                <div id="cuadros">
                 
-                    <div  class="modelo">
-                        <h2>¿COMO DONAR?</h2><br>
-                        <ol>
-                            <li>El donante ofrecealimentos aptos para el consumo.</li>
-                            <li>Una vez en el depósito, los voluntarios clasifican estos alimentos.</li>
-                            <li>El equipo de SUSTENTAR ofrece los alimentos donados a las organizaciones sociales.</li>
-                            <li>Cada organización social llega al depósito a buscar su pedido que previamente ha sido ordenado y preparado según su necesidad.</li>
-                            <li>Finalmente el alimento retirado llega a la Organización Social donde serán consumidos.</li>
-                        </ol>
+                    <div class="modelo">
+                    	<div>
+	                        <h2>¿COMO DONAR?</h2><br>
+	                        <ol>
+	                            <li>El donante ofrecealimentos aptos para el consumo.</li>
+	                            <li>Una vez en el depósito, los voluntarios clasifican estos alimentos.</li>
+	                            <li>El equipo de SUSTENTAR ofrece los alimentos donados a las organizaciones sociales.</li>
+	                            <li>Cada organización social llega al depósito a buscar su pedido que previamente ha sido ordenado y preparado según su necesidad.</li>
+	                            <li>Finalmente el alimento retirado llega a la Organización Social donde serán consumidos.</li>
+	                        </ol>
+                        </div>
+                        <img src="imagenes/im23.png">
                     </div>
 
-                    <div class="modelo" id="cajaDonar">
-                        <h2>¿QUÉ ALIMENTOS SE PUEDEN DONAR?</h2> <br>
-                        <ol>
-                            <li>Alimentos no perecederos.</li>
-                            <li>Materias primas y productos semi-elaborados.</li>
-                            <li>Los alimentos perecederos deberán tener una planificación de logística
-                                conjunta teniendo en cuenta que aun no contamos con cámaras de frío.</li>
-                            <li class="negrita">No se aceptan alimentos vencidos.</li>
-                        </ol>
+                    <div class="modelo">
+                    	<div>
+	                        <h2>¿QUÉ ALIMENTOS SE PUEDEN DONAR?</h2> <br>
+	                        <ol>
+	                            <li>Alimentos no perecederos.</li>
+	                            <li>Materias primas y productos semi-elaborados.</li>
+	                            <li>Los alimentos perecederos deberán tener una planificación de logística
+	                                conjunta teniendo en cuenta que aun no contamos con cámaras de frío.</li>
+	                            <li class="negrita">No se aceptan alimentos vencidos.</li>
+	                        </ol>
+                    	</div>
+                        <img src="imagenes/im22.png">
                     </div>
-                </div>
+
              </section>
 
              <section>
