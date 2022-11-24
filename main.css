@@ -374,16 +374,17 @@ bottom: 0;
 	bottom: 0;
 	top:-300px; /* Escondemos nuestro menú con un valor negativo */ 
 	width: 100%;
-	height: 300px;
+	height: 460px;
 	z-index: 10;
 	padding-top: 90px;
 	background: #89ba16;
 	opacity: 0;
 	transition: all 0.75s ease;
-	font-size: 1.2em;
+	font-size: 1em;
 	overflow-y: auto;
     font-family: 'Francois One', sans-serif;
 }
+
 
 #menu ul{
 
@@ -425,6 +426,12 @@ bottom: 0;
 }
 
 @media screen and (max-width:700px){
+
+	body{
+
+		overflow-x: hidden;
+
+	}
 
 	#menu_on{
 
