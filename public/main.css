@@ -434,12 +434,6 @@ bottom: 0;
 
 @media screen and (max-width:700px){
 
-	body{
-
-		overflow-x: hidden;
-
-	}
-
 	#menu_on{
 
 		display: inline-block;
