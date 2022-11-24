@@ -378,7 +378,14 @@ footer div{
 
     #navbar-titulo{
 
-        font-size: 35px;
+        font-size: 0px;
+
+    }
+
+    #navbar-titulo2{
+
+        font-size: 15px;
+        top: 2px;
 
     }
     
