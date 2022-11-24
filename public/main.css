@@ -2,7 +2,7 @@ html, body{
 
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
+    scroll-behavior: smooth
 
 }
 
@@ -13,10 +13,17 @@ html, body{
     background: #89ba16;  
     padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-    position: sticky; /* Sticky/fixed navbar */
+    position: fixed; /* Sticky/fixed navbar */
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
+    height: 200px;
+
+}
+
+#navbar_contenedor{
+
+    height: 200px;
 
 }
 
@@ -36,7 +43,7 @@ html, body{
 
 .redes{
 
-    filter: saturate(0%);
+    filter: contrast(0) brightness(10) saturate(0%);
     transition: .5s;
     width: 45px;
     margin: 2px;
@@ -197,6 +204,7 @@ html, body{
 
     height: auto;
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -290,11 +298,60 @@ footer div{
 
 }
 
+#indice{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    position: relative;
+    transition: .5s;
+
+}
+
+#indice a{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+    transition: .3s;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#indice a:hover{
+
+    background-color: #6e9513;
+    color: white;
+
+}
+
+#navbar-titulo2{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+    font-size: 0px;
+    transition: .5s;
+    position: absolute;
+
+}
+
 @media screen and (max-width:700px){
+
+    #indice{
+
+        display: none;
+
+    }
 
     #redes{
 
         width: 20%;
+        display: none;
 
     }
 
@@ -321,19 +378,27 @@ footer div{
 
     #navbar-titulo{
 
-        font-size: 20px;
+        font-size: 35px;
 
     }
     
     #icon{
 
-        width: 40px;
+        width: 80px;
+        padding-left: 10px;
 
     }
 
     #navbar{
 
         padding: 5px;
+        height: 100px;
+
+    }
+
+    #navbar_contenedor{
+
+        height: 100px;
 
     }
 
