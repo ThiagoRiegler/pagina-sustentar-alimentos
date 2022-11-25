@@ -18,8 +18,8 @@ function scrollFunction() {
 
     } else{
         document.getElementById("navbar").style.padding = "30px 10px";
-        document.getElementById("navbar").style.height = "200px";
-        document.getElementById("navbar-titulo").style.fontSize = "35px";
+        document.getElementById("navbar").style.height = "175px";
+        document.getElementById("navbar-titulo").style.fontSize = "40px";
         document.getElementById("navbar-titulo2").style.fontSize = "0px";
         document.getElementById("icon").style.width = "80px";
         document.getElementById("indice").style.top = "0px";

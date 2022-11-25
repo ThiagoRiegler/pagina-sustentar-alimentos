@@ -17,7 +17,7 @@ html, body{
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
-    height: 200px;
+    height: 175px;
 
 }
 
@@ -30,12 +30,13 @@ html, body{
 #icon{
 
     transition: .4s;
+    width: 80px;
 
 }
 
 #redes{
 
-    width: 17%;
+    width: 18%;
     display: flex;
     justify-content: space-evenly;
     transition: .4s;
